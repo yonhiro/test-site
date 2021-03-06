@@ -116,10 +116,10 @@ gulp.task('sass', () => {
     .pipe(sass({
       outputStyle: 'expanded'
     }))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false
-    }))
+    // .pipe(autoprefixer({
+    //   browsers: ['last 2 versions'],
+    //   cascade: false
+    // }))
     .pipe(cached('sass'))
     .pipe(gulp.dest(dist.css))
     .pipe(browserSync.stream());

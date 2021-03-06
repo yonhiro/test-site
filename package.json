@@ -31,6 +31,17 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "node-sass": "^4.14.1"
-  }
+    "core-js": "^3.9.1",
+    "lodash": ">=4.17.19",
+    "lodash.template": ">=4.5.0",
+    "node-notifier": ">=8.0.1",
+    "node-sass": "^4.14.1",
+    "pug": ">=3.0.1",
+    "pug-code-gen": ">=2.0.3"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 5%",
+    "ie >= 9"
+  ]
 }

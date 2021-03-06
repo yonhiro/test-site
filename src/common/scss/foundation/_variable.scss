@@ -1,0 +1,23 @@
+// Fonts
+$sansSerif: "メイリオ" , Meiryo , Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+$serif: "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "Roboto Slab" , Garamond , "Times New Roman" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+
+// Color
+$black: #222;
+$white: #fff;
+
+// Layout Size
+$breakpointS: 600px;
+$breakpointM: 960px;
+$breakpointL: 1366px;
+$breakpointOutermost: $breakpointM + 1;
+// Layout Content Size
+$contentM: 1100px;
+$contentL: 1200px;
+// Layout Padding, Margin Size
+$spaceL: 140px;
+
+// Header Size. `h` is the Header
+$hM: 1.8rem;
+$hL: 2rem;
+$hXL: 3.2rem;

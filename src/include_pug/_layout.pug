@@ -1,0 +1,17 @@
+include _mixin
+block vars
+  include _vars
+doctype html
+html(lang="ja", itemtype="http://schema.org/WebPage", itemscope)
+  head(prefix='og: http://ogp.me/ns# ' + ogType + ': http://ogp.me/ns/' + ogType + '#')
+    include _meta
+  body(class=bodyClass)
+    #page-top
+      include _header
+      block content
+      include _footer
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script window.jQuery || document.write('<script src="common/js/jquery-3.3.1.min.js"><\/script>')
+    script(src="common/js/vendor.js")
+    script(src="common/js/bundle.js")

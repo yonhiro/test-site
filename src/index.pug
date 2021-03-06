@@ -1,0 +1,11 @@
+extends include_pug/_layout
+append vars
+  -
+    var pageRelPath = relPath;
+    var description = '';
+    var title = 'any title';
+    var bodyClass = 'page-index';
+
+block content
+  main
+    .body Hello World.

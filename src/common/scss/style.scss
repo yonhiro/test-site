@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+// Foundation
+@import "declaration";
+@import "reset";
+@import "foundation/keyframes";
+
+// Vendor
+@import "vendor/*";
+
+// Layout 'l-' prefix selector
+@import "layout/*";
+
+// Object/Component 'c-' prefix selector
+@import "object/component/*";
+
+// Object/Project 'p-' prefix selector
+@import "object/project/*";
+
+// Object/Utility 'u-' prefix selector
+@import "object/utility/*";
+
+// Template
+@import "template/*";
